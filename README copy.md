@@ -19,3 +19,11 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
+
+Javascript was new for me but so. Sound crazy but i do.
+
+
+Here is where i started my for Loop.
+<img src="./ScreenShot1.png" alt="ScreenShot" />
+It's a start. I work slow and clean so no worry.
+
