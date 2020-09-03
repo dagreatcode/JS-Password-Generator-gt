@@ -16,11 +16,11 @@ console.log("yg128ch");
 alert("You also get to chose more options");
 console.log("great");
 
-passwordLength = prompt("Hi Pick a password length from 8-128 characters");
+var passwordLength = prompt("Hi Pick a password length from 8-128 characters");
 console.log(password);
-characterType = alert("Hi Yes or No for the following.");
-lowerCase = confirm("?Lower Case?");
-upperCase = confirm("Upper Case?");
+var characterType = alert("Hi Yes or No for the following.");
+var lowerCase = confirm("?Lower Case?");
+var upperCase = confirm("Upper Case?");
 
 var passwordNew = [];
 var writePassword = [];
@@ -33,7 +33,9 @@ function generatePassword() {
     console.log(password);
     var computerPick = computerPick[randomNumber];
     console.log(computerPick);
-    
+    computerPick.push(writePassword);
+    console.log("Password Text", passwordText);
+    writePassword.push(placeholder);
 
   }
   computerPick.push(writePassword);
