@@ -11,10 +11,21 @@ function writePassword() {
 }
 
 // Generate password 8-128 characters to the #password input
-password = prompt("Hi Pick a password length from 8-128 characters");
+alert("you get 128 characters");
+console.log("yg128ch");
+alert("You also get to chose more options");
+console.log("great");
+
+passwordLength = prompt("Hi Pick a password length from 8-128 characters");
+console.log(password);
+characterType = alert("Hi Yes or No for the following.");
+lowerCase = confirm("?Lower Case?");
+upperCase = confirm("Upper Case?");
 
 var passwordNew = [];
 var writePassword = [];
+var passwordCharacters = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','g','r','s','t','u','v','w','x','y','z','1','2','3','4','5','6','7','8','9','0','%','^','&','*','?'];
+console.log(passwordCharacters);
 
 function generatePassword() {
   for (var i = 0; i < 10; i++) {
@@ -23,12 +34,12 @@ function generatePassword() {
     var computerPick = computerPick[randomNumber];
     console.log(computerPick);
     
-    alert("you get 128 ch");
-    console.log("Hello");
+
   }
   computerPick.push(writePassword);
   console.log("Hello");
 }
+console.log("Hello");
 
 
 
