@@ -24,10 +24,10 @@ function generatePassword() {
     console.log(computerPick);
     
     alert("you get 128 ch");
-    console.log("Hello")
+    console.log("Hello");
   }
   computerPick.push(writePassword);
-  console.log("Hello")
+  console.log("Hello");
 }
 
 
