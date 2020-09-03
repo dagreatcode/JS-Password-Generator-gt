@@ -11,12 +11,17 @@ function writePassword() {
 }
 
 // Generate password 8-128 characters to the #password input
-prompt.("Hi Pick a password length from 8-16 characters")
+prompt("Hi Pick a password length from 8-128 characters");
 
 function generatePassword() {
-  var generatePassword = Math.floor(Math.random() * 128) 8 ;
-  
-  console.log("")
+  for (var i = 0; i < 10; i++) {
+    var password = Math.floor(Math.random() * 129) + 9;
+    console.log(password);
+    var computerPick = computerPick[randomNumber];
+    console.log(computerPick);
+    if generateBtn
+    alert("you get 128 ch")
+  }
 }
 
 // Generate password 8-128 characters to the #password input
@@ -25,9 +30,7 @@ function generatePassword() {
 // Password Characters
 //var passwordCharacters = ['a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,g,r,s,t,u,v,w,x,y,z,1,2,3,4,5,6,7,8,9,0,,%,^,&,*,?'];
   //for(var i = 0; i < passwordCharacters.length; i++);
-  //if(){
-  prompt("")
-  }
+  //if(){prompt("")}
   //console.log("passwordCharacters")
 
 
