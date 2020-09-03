@@ -27,3 +27,5 @@ Here is where i started my for Loop.
 <img src="./ScreenShot1.png" alt="ScreenShot" />
 It's a start. I work slow and clean so no worry.
 
+I know this is a waste of your time but this is where i am stuck. But I know its simple.
+<img src="./ScreenShot2.png" alt="ScreenShot" />
