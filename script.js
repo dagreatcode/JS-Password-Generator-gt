@@ -45,7 +45,7 @@ var writePassword = [];
 function generatePassword() {
 
   for (var i = 0; i < passwordLength; i++) {
-    var randomPassword = Math.floor(Math.random() * 129) + 9;
+    var i = Math.floor(Math.random() * 129) + 9;
 
     //passwordNew = passwordNew + writePassword[randomCharacter];
 
