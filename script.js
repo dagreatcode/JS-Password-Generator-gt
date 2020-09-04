@@ -32,7 +32,7 @@ var passwordNew = [];
 var writePassword = [];
 // create 4 different arr
 var passwordCharacters1 = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','g','r','s','t','u','v','w','x','y','z','1','2','3','4','5','6','7','8','9','0','%','^','&','*','?'];
-console.log(passwordCharacters);
+
 
 
 
@@ -40,18 +40,26 @@ console.log(passwordCharacters);
 function generatePassword() {
   for (var i = 0; i < passwordLength; i++) {
     var password = Math.floor(Math.random() * 129) + 9;
-    console.log(password);
+    
     var computerPick = computerPick[randomNumber];
     console.log(computerPick);
     computerPick.push(writePassword);
-    console.log("Password Text", passwordText);
-    writePassword.push(placeholder);
+    //console.log("Password Text", passwordText);
     computerPick.push(writePassword);
+    writePassword.push(placeholder);
+
     return ""
   }
 
 }
 
+console.log(password);
+console.log(passwordCharacters);
+console.log(passwordLength);
+console.log(characterType);
+console.log(lowerCase);
+console.log(upperCase);
+console.log(numericOnly);
 
 
 
