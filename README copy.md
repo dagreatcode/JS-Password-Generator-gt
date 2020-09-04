@@ -2,6 +2,9 @@
 
 ## Employee Criteria
 
+If you can give me a few more day, I think i can get it... Day and night... Something simple as passwords... I this job has made me look deeper. Sometimes things don't work out the way you should. But in a few days it will... LOL 
+Thanks. 
+
 ```
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
