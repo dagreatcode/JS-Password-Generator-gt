@@ -20,48 +20,65 @@ console.log("yg128ch");
 alert("You also get to chose more options");
 console.log("great");
 
-var passwordLength = prompt("Hi Pick a password length from 8-128 characters");
-var characterType = confirm("Hi Yes or No for the following.");
-var lowerCase = confirm("?Lower Case?");
-var upperCase = confirm("Upper Case?");
-var numericOnly = confirm("Numbers?")
+//var passwordLength = prompt("Hi Pick a password length from 8-128 characters");
+var passwordNew = [];
+var writePassword = [];
+var prompt = ("Do you want special characters");
+var characterType = ["$","%","&",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","]","^","_","`","{","}","~",];
+  //if (true);
+   // return characterType.push(passwordNew);
+   // else;
+
+var confirm = ("Do you want lower case");
+var lowerCase = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','g','r','s','t','u','v','w','x','y','z'];
+var confirm = ("Do you want upper case");
+var upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+var confirm = ("Do you want numbers");
+var numericOnly = ["1","2","3","4","5","6","7","8","9","0"]
 // create condition statements less then 8 also more then 128  (is not a number!!!!!)
 // create condition statements
 // create confirm for numbers and sp ch
-var passwordNew = [];
-var writePassword = [];
+
 // create 4 different arr
-var passwordCharacters1 = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','g','r','s','t','u','v','w','x','y','z','1','2','3','4','5','6','7','8','9','0','%','^','&','*','?'];
+
 
 
 
 
 
 function generatePassword() {
-  for (var i = 0; i < passwordLength; i++) {
-    var password = Math.floor(Math.random() * 129) + 9;
-    
-    var computerPick = computerPick[randomNumber];
-    console.log(computerPick);
-    computerPick.push(writePassword);
-    //console.log("Password Text", passwordText);
-    computerPick.push(writePassword);
-    writePassword.push(placeholder);
 
-    return ""
-  }
+  for (var i = 0; i < passwordLength; i++) {
+    var randomPassword = Math.floor(Math.random() * 129) + 9;
+    passwordNew = passwordNew + writePassword[randomCharacter];
+    console.log(passwordNew);
+    
+
+
+
+
+
+    //var computerPick = computerPick[randomNumber];
+    //console.log(computerPick);
+    //computerPick.push(writePassword);
+    //console.log("Password Text", passwordText);
+    //computerPick.push(writePassword);
+    //writePassword.push(placeholder);
+
+   
+  } return passwordNew
 
 }
 
-console.log(password);
-console.log(passwordCharacters);
-console.log(passwordLength);
-console.log(characterType);
-console.log(lowerCase);
-console.log(upperCase);
-console.log(numericOnly);
+//console.log(password.computerPick);
+//console.log(passwordCharacters.computerPick);
+//console.log(passwordLength.computerPick);
+//console.log(characterType.computerPick);
+//console.log(lowerCase.computerPick);
+//console.log(upperCase.computerPick);
+//console.log(numericOnly.computerPick);
 
-
+//var 
 
 
 // Generate password 8-128 characters to the #password input
