@@ -45,6 +45,13 @@ function generatePassword() {
   for (var i = 0; i < passwordLength; i++) {
     var i = Math.floor(Math.random() * 129) + 9;
     // create 4 different arr
+    if (passwordLength < 12 );
+    writePassword =  writePassword.append(passwordLength);
+    console.log(passwordLength);
+   // if (---- >= );
+    //---- = --- .append(lowerCase);
+    //if (---- >= );
+    //---- = --- .append(numericOnly);
     
    
 
