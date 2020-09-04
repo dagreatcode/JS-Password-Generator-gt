@@ -28,4 +28,13 @@ Here is where i started my for Loop.
 It's a start. I work slow and clean so no worry.
 
 I know this is a waste of your time but this is where i am stuck. But I know its simple.
-<img src="./ScreenShot2.png" alt="ScreenShot" />
+<img src="./ScreenShot2.png" alt="ScreenShot2" />
+
+
+
+
+
+
+
+SMH... Im still going... So this is where i been stuck for a second...
+<img src="./ScreenShot3.png" alt="ScreenShot3" />

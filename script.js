@@ -40,8 +40,20 @@ var writePassword = [];
 function generatePassword() {
 
   var lowerCase = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','g','r','s','t','u','v','w','x','y','z'];
+    if (true) {
+      lowerCase = writePassword
+      console.log(lowerCase)
+    }
   var upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-  var numericOnly = ["1","2","3","4","5","6","7","8","9","0"]
+  if (true) {
+    lowerCase = upperCase
+    console.log(upperCase)
+  }
+  var numericOnly = ["1","2","3","4","5","6","7","8","9","0"];
+  if (true) {
+    lowerCase = numericOnly
+    console.log(numericOnly)
+  }
   var characterType = ["$","%","&",")","*","+",",","-",".","/",":",";","<","=",">","?","@","_","`","{","}","~",];
 
   for (var i = 0; i < passwordLength; i++) {
