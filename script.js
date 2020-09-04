@@ -12,29 +12,13 @@ function writePassword() {
 
 
 
-
-
-// Generate password 8-128 characters to the #password input
 alert("you get 128 characters");
 console.log("yg128ch");
 alert("You also get to chose more options");
 console.log("great");
 
-//var passwordLength = prompt("Hi Pick a password length from 8-128 characters");
-var passwordNew = [];
-var writePassword = [];
-var specialCharacters = confirm ("Do you want special characters");
-passwordLength = prompt ("what is your password length?")
-var lowerCase = confirm ("Do you want lower case");
-var lowerCase = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','g','r','s','t','u','v','w','x','y','z'];
-var upperCase = confirm ("Do you want upper case");
-var upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-var numericOnly = confirm ("Do you want numbers");
-var numericOnly = ["1","2","3","4","5","6","7","8","9","0"]
-var characterType = ["$","%","&",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","]","^","_","`","{","}","~",];
-  //if (true);
-   // return characterType.push(passwordNew);
-   // else;
+// Generate password 8-128 characters to the #password input
+
 
 
 // create condition statements less then 8 also more then 128  (is not a number!!!!!)
@@ -42,9 +26,14 @@ var characterType = ["$","%","&",")","*","+",",","-",".","/",":",";","<","=",">"
 // create confirm for numbers and sp ch
 
 // create 4 different arr
+var lowerCase = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','g','r','s','t','u','v','w','x','y','z'];
+var upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+var numericOnly = ["1","2","3","4","5","6","7","8","9","0"]
+var characterType = ["$","%","&",")","*","+",",","-",".","/",":",";","<","=",">","?","@","_","`","{","}","~",];
 
 
-
+var passwordNew = [];
+var writePassword = [];
 
 
 
@@ -52,13 +41,31 @@ function generatePassword() {
 
   for (var i = 0; i < passwordLength; i++) {
     var randomPassword = Math.floor(Math.random() * 129) + 9;
-    passwordNew = passwordNew + writePassword[randomCharacter];
+
+    //passwordNew = passwordNew + writePassword[randomCharacter];
 
 
-    if (passwordLength >= 8 || passwordLength <=128 ) {
-    if (lowerCase + upperCase + numericOnly);
+    //if (passwordLength >= 8 || passwordLength <=128 ) {
+    //if (lowerCase + upperCase + numericOnly);
     
-    return writePassword;
+    password = writePassword
+
+
+    ///passwordLength = prompt ("what is your password length?");
+    var lowerCase = confirm ("Do you want lower case");
+    var specialCharacters = confirm ("Do you want special characters");
+    var numericOnly = confirm ("Do you want numbers");
+    var upperCase = confirm ("Do you want upper case");
+
+    //var passwordLength = prompt("Hi Pick a password length from 8-128 characters");
+
+
+
+
+      //if (true);
+   // return characterType.push(passwordNew);
+   // else;
+
 
 
 
@@ -72,7 +79,7 @@ function generatePassword() {
     //writePassword.push(placeholder);
 
    
-  }
+  }    return writePassword;
 
 }
 
