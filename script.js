@@ -10,12 +10,6 @@ function writePassword() {
 
 }
 
-// create 4 different arr
-var lowerCase = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','g','r','s','t','u','v','w','x','y','z'];
-var upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-var numericOnly = ["1","2","3","4","5","6","7","8","9","0"]
-var characterType = ["$","%","&",")","*","+",",","-",".","/",":",";","<","=",">","?","@","_","`","{","}","~",];
-
 
 alert("you get 128 characters");
 console.log("yg128ch");
@@ -27,25 +21,42 @@ specialCharacters = confirm ("Do you want special characters");
 numericOnly = confirm ("Do you want numbers");
 upperCase = confirm ("Do you want upper case");
 console.log("ok");
-// Generate password 8-128 characters to the #password input
+
 
 
 
 // create condition statements less then 8 also more then 128  (is not a number!!!!!)
 // create condition statements
-// create confirm for numbers and sp ch
 
+
+var lowerCase = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','g','r','s','t','u','v','w','x','y','z'];
+var upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+var numericOnly = ["1","2","3","4","5","6","7","8","9","0"]
+var characterType = ["$","%","&",")","*","+",",","-",".","/",":",";","<","=",">","?","@","_","`","{","}","~",];
 
 
 var passwordNew = [];
 var writePassword = [];
 
 
-
+// Generate password 8-128 characters to the #password input
 function generatePassword() {
 
   for (var i = 0; i < passwordLength; i++) {
     var i = Math.floor(Math.random() * 129) + 9;
+    // create 4 different arr
+    
+   
+
+
+
+  }    return writePassword;
+
+}
+
+ //   if ( 
+
+     
 
     //passwordNew = passwordNew + writePassword[randomCharacter];
 
@@ -81,9 +92,7 @@ function generatePassword() {
     //writePassword.push(placeholder);
 
    
-  }    return writePassword;
 
-}
 
 //console.log(password.computerPick);
 //console.log(passwordCharacters.computerPick);
