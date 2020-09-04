@@ -10,13 +10,23 @@ function writePassword() {
 
 }
 
+// create 4 different arr
+var lowerCase = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','g','r','s','t','u','v','w','x','y','z'];
+var upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+var numericOnly = ["1","2","3","4","5","6","7","8","9","0"]
+var characterType = ["$","%","&",")","*","+",",","-",".","/",":",";","<","=",">","?","@","_","`","{","}","~",];
 
 
 alert("you get 128 characters");
 console.log("yg128ch");
 alert("You also get to chose more options");
 console.log("great");
-
+passwordLength = prompt ("From 8 to 128, How long do you want your pass word?");
+lowerCase = confirm ("Do you want lower case");
+specialCharacters = confirm ("Do you want special characters");
+numericOnly = confirm ("Do you want numbers");
+upperCase = confirm ("Do you want upper case");
+console.log("ok");
 // Generate password 8-128 characters to the #password input
 
 
@@ -25,11 +35,6 @@ console.log("great");
 // create condition statements
 // create confirm for numbers and sp ch
 
-// create 4 different arr
-var lowerCase = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','g','r','s','t','u','v','w','x','y','z'];
-var upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-var numericOnly = ["1","2","3","4","5","6","7","8","9","0"]
-var characterType = ["$","%","&",")","*","+",",","-",".","/",":",";","<","=",">","?","@","_","`","{","}","~",];
 
 
 var passwordNew = [];
@@ -52,10 +57,7 @@ function generatePassword() {
 
 
     ///passwordLength = prompt ("what is your password length?");
-    var lowerCase = confirm ("Do you want lower case");
-    var specialCharacters = confirm ("Do you want special characters");
-    var numericOnly = confirm ("Do you want numbers");
-    var upperCase = confirm ("Do you want upper case");
+
 
     //var passwordLength = prompt("Hi Pick a password length from 8-128 characters");
 
