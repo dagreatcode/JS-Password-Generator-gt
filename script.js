@@ -111,12 +111,32 @@ function getPasswordOptions(){
   var specialCh = confirm("Do you want special Ch ?");
   var numericCh = confirm("Do you want numbers?");
   var lowerCh = confirm("Do you want lower?");
+    // Conditional statement to must pick something
+    if(upperCh===false && specialCh===false && numericCh===false && lowerCh===false){
+      alert('Must select at least one character type');
+      return;
+    }
 
+  // Object to store user input
+  var passwordOptions = {
+    length: length,
+    upperCh: upperCh,
+    specialCh: specialCh,
+    numericCh: numericCh,
+    lowerCh: lowerCh
+  };
 
-  
+  return passwordOptions;
+
 }
 
-function getRandom(arr) {}
+function getRandom(arr) {
+  var ranIndex = Math.floor(Math.random() * arr.length);
+  var randomPick = arr[ranIndex];
+
+  return randomPick
+};
+
 function generatePassword() {}
 
 
