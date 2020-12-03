@@ -137,8 +137,39 @@ function getRandom(arr) {
   return randomPick
 };
 
-function generatePassword() {}
+function generatePassword() {
+  var options = getPasswordOptions();
+  // Variable to store password as it's being concatenated
+  var result = [];
 
+  // // Array to store types of characters to include in password
+  // var possibleCharacters = [];
+
+  // Array to contain one of each type of chosen character to ensure each will be used
+  var guaranteedCharacters = [];
+
+  // Conditional statement that adds array of special characters into array of possible characters based on user input
+  // Push new random special character to guaranteedCharacters
+  if (options.upperCh) {
+    guaranteedCharacters.push(getRandom(upperCh));
+  }
+  if (options.specialCh) {
+    guaranteedCharacters.push(getRandom(specialCh));
+  }
+  if (options.numericCh) {
+    guaranteedCharacters.push(getRandom(numericCh));
+  }
+  if (options.lowerCh) {
+    guaranteedCharacters.push(getRandom(lowerCh));
+  }
+  // Mix in at least one of each guaranteed character in the result
+  for (var i = 0; i < guaranteedCharacters.length; i++) {
+    result[i] = guaranteedCharacters[i];
+  }
+
+  // Transform the result into a string and pass into writePassword
+  return result.join('');
+}
 
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
