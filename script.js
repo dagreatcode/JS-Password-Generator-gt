@@ -88,9 +88,35 @@ var upperCasedCharacters = [
   'Z'
 ];
 
-function getPassword(){
-  var length = parseInt(prompt("What is your password length"))
+function etPasswordOptions(){
+  var length = parseInt(prompt("What is your password length?"));
+    // Conditional statement to check if password length is a number. Prompts end if this evaluates false
+    if (isNaN(length) === true) {
+      alert('Password length must be provided as a number');
+      return;
+    }
+  
+    // Conditional statement to check if password length is at least 8 characters long. Prompts end if this evaluates false
+    if (length < 8) {
+      alert('Password length must be at least 8 characters');
+      return;
+    }
+  
+    // Conditional statement to check if password length is less than 128 characters long. Prompts end if this evaluates false
+    if (length > 128) {
+      alert('Password length must less than 129 characters');
+      return;
+    }
+  var upperCh = confirm("Do you want upper?");
+  var specialCh = confirm("Do you want special Ch ?");
+  var numericCh = confirm("Do you want numbers?");
+  var lowerCh = confirm("Do you want lower?");
+  
 }
+
+function getRandom(arr) {}
+function generatePassword() {}
+
 
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
