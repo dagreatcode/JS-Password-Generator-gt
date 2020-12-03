@@ -1,5 +1,4 @@
-If you can give me a few more day, I think i can get it... Day and night... Something simple as passwords... I this job has made me look deeper. Sometimes things don't work out the way you should. But in a few days it will... LOL 
-Thanks. 
+[![GitHub followers](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://www.javascript.com/)
 
 ```
 GIVEN I need a new, secure password
