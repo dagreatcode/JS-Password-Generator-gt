@@ -88,7 +88,7 @@ var upperCasedCharacters = [
   'Z'
 ];
 
-function etPasswordOptions(){
+function getPasswordOptions(){
   var length = parseInt(prompt("What is your password length?"));
     // Conditional statement to check if password length is a number. Prompts end if this evaluates false
     if (isNaN(length) === true) {
@@ -111,6 +111,8 @@ function etPasswordOptions(){
   var specialCh = confirm("Do you want special Ch ?");
   var numericCh = confirm("Do you want numbers?");
   var lowerCh = confirm("Do you want lower?");
+
+
   
 }
 
