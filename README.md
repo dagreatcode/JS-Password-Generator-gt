@@ -26,11 +26,15 @@ Javascript was new for me but so. Sound crazy but i do.
 
 
 Here is where i started my for Loop.
-<img src="./ScreenShot1.png" alt="ScreenShot" />
+<img src="./assets/img/ScreenShot1.png" alt="ScreenShot1" />>
 It's a start. I work slow and clean so no worry.
 
 I know this is a waste of your time but this is where i am stuck. But I know its simple.
-<img src="./ScreenShot2.png" alt="ScreenShot2" />
+<img src="./assets/img/ScreenShot2.png" alt="ScreenShot2" />
+<img src="./assets/img/ScreenShot4.png" alt="ScreenShot4" />
+<img src="./assets/img/ScreenShot5.png" alt="ScreenShot5" />
+<img src="./assets/img/ScreenShot6.png" alt="ScreenShot6" />
+<img src="./assets/img/ScreenShot7.png" alt="ScreenShot7" />
 
 
 
@@ -39,4 +43,4 @@ I know this is a waste of your time but this is where i am stuck. But I know its
 
 
 SMH... Im still going... So this is where i been stuck for a second...
-<img src="./ScreenShot3.png" alt="ScreenShot3" />
+<img src="./assets/img/ScreenShot3.png" alt="ScreenShot3" />
